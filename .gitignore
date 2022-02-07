@@ -1,0 +1,11 @@
+venv/
+*.json
+*.jsonlines
+*.jl
+*.csv
+*.xml
+*.marshal
+*.pickle
+
+pokemonscraper/__pycache__/
+pokemonscraper/spiders/__pycache__
