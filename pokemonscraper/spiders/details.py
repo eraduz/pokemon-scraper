@@ -26,3 +26,4 @@ class DetailsSpider(scrapy.Spider):
                 'categories': item.css('.posted_in > a::text').getall(),
                 'tags': item.css('.tagged_as > a::text').getall()
             }
+
